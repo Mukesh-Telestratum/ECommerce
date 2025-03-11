@@ -25,8 +25,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ECommerceAppTheme {
-//                    ProductScreen(viewModel)
-                ProductScreen(viewModel = viewModel, onBackClick = { finish() })  // Handle back navigation
+                ProductScreen(viewModel = viewModel, onBackClick = { finish() })
             }
         }
     }
